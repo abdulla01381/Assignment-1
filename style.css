@@ -1,0 +1,97 @@
+ * {
+   font-family: "Inter"
+
+ }
+
+ #navbar {
+   max-width: 1600px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 92px;
+ }
+
+ .nav-con ul {
+   display: flex;
+   gap: 32px;
+ }
+
+ .nav-con a {
+   text-decoration: none;
+
+   color: black;
+ }
+
+ .nav-con a:hover {
+   color: red;
+ }
+
+ .nav-con li {
+   list-style: none;
+ }
+
+ .nav-button button {
+   padding: 12px 16px;
+   background: linear-gradient(to right, rgba(255, 0, 0, 0.808), rgba(0, 0, 255, 0.568));
+   border: none;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+
+ }
+
+ .nav-button button:hover {
+
+   background: linear-gradient(to right, rgba(0, 0, 255, 0.568), rgba(255, 0, 0, 0.808));
+   color: rgb(0, 255, 13);
+ }
+
+ #hero{
+  height: 680px;
+  background-image: url(image/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  text-align: center;
+
+ 
+ }
+ #hero .hero-content{
+  position: relative;
+  top: 20%;
+  
+ }
+ #hero .hero-content h5{
+  background-color: aliceblue;
+  display: inline;
+  color: #469165;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+ }
+ #hero .hero-content h1{
+  font-size:72px;
+  margin: 30px 0;
+  
+ }
+  #hero .hero-content p{
+    line-height: 30px;
+  }
+   #hero .hero-content i{
+    margin-right: 10px;
+   }
+    #hero .hero-content button{
+      background-color: #469165;
+      padding: 15px 20px;
+      border-radius: 10px;
+      border:none;
+      color: white;
+      margin-left: 30px;
+      cursor: pointer;
+    }
+     #hero .hero-content button:hover{
+      background-color: #F95555;
+     }
+
+
