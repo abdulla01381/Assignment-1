@@ -132,3 +132,38 @@
       #card .card1 h1{
         font-size: 24px;
        }
+       #section2{
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        align-items: center;
+        margin-top: 100px;
+       }
+       .brain{
+        width: 600px;
+       }
+       .solution  h6{
+        font-size: 16px;
+        color: #469165;
+        margin-bottom: -10px;
+       }
+        .solution h1{
+          font-size: 48px;
+        }
+       .solution p{
+        opacity: 0.7;
+        line-height: 22px;
+       }
+       .tic{
+     display: inline-flex;
+     gap: 10px;
+       }
+       .tic img{
+        margin-top:6px ;
+        width: 20px;
+        height: 20px;
+       }
+       .tic p{
+        line-height: 0px;
+       }
+
