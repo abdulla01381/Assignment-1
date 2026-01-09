@@ -166,4 +166,38 @@
        .tic p{
         line-height: 0px;
        }
+       #challeng-sec{
+        max-width: 1360px;
+        margin: auto;
+        border-radius: 5px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 400px;
+        background-color: #F7F6F2;
+        text-align: center;
+       }
+      #challeng-sec .chal h1{
+        display: inline-block;
+        font-size: 40px;
+        margin-top:70px;
+      }
+      #challeng-sec .chal p{
+        margin-top: -10px;
+        opacity: 0.7;
+      }
+      #challeng-sec .chal button {
+        padding: 15px 30px;
+        background-color: #469165;
+        color: #F7F6F2;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        transition: 0.2s;
+
+      }
+      #challeng-sec .chal button:hover{
+        background-color: #00ff37;
+        color: black;
+        cursor: pointer;
+      }
 
